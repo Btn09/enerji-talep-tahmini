@@ -1,0 +1,6 @@
+model,musteri_wape,musteri_wape_medyan,toplam_yuk_mape,egitim_sn
+Dünün aynısı,0.0852,0.0844,0.0452,0.0000
+Geçen haftanın aynısı,0.0965,0.0882,0.0589,0.0000
+LightGBM,0.0654,0.0626,0.0340,187.5000
+Sinir ağı,0.0668,0.0638,0.0319,18.6000
+LightGBM + sinir ağı ortalaması,0.0643,0.0614,0.0323,0.0000

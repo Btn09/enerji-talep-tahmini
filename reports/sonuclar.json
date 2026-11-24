@@ -1,0 +1,93 @@
+{
+  "musteri_sayisi": 315,
+  "testte_aktif_musteri": 314,
+  "test_donemi": [
+    "2014-10-01",
+    "2014-12-31"
+  ],
+  "modeller": [
+    {
+      "model": "Dünün aynısı",
+      "musteri_wape": 0.08515726029872894,
+      "musteri_wape_medyan": 0.08444055914878845,
+      "toplam_yuk_mape": 0.04520479962229729,
+      "egitim_sn": 0
+    },
+    {
+      "model": "Geçen haftanın aynısı",
+      "musteri_wape": 0.09650762379169464,
+      "musteri_wape_medyan": 0.0881526842713356,
+      "toplam_yuk_mape": 0.05891060456633568,
+      "egitim_sn": 0
+    },
+    {
+      "model": "LightGBM",
+      "musteri_wape": 0.06536309312019481,
+      "musteri_wape_medyan": 0.06264029841416141,
+      "toplam_yuk_mape": 0.03399884925197276,
+      "egitim_sn": 187.5
+    },
+    {
+      "model": "Sinir ağı",
+      "musteri_wape": 0.06679975241422653,
+      "musteri_wape_medyan": 0.0637807697057724,
+      "toplam_yuk_mape": 0.03193001076579094,
+      "egitim_sn": 18.6
+    },
+    {
+      "model": "LightGBM + sinir ağı ortalaması",
+      "musteri_wape": 0.06431329345641393,
+      "musteri_wape_medyan": 0.06141985393164643,
+      "toplam_yuk_mape": 0.03231385604568323,
+      "egitim_sn": 0
+    }
+  ],
+  "en_iyi": "LightGBM + sinir ağı ortalaması",
+  "aralik": {
+    "kapsama_80": 0.7762,
+    "ortalama_genislik_orani": 0.1876
+  },
+  "en_kotu_gunler": [
+    [
+      "2014-12-25",
+      0.48414206558292056
+    ],
+    [
+      "2014-12-24",
+      0.13857707549848097
+    ],
+    [
+      "2014-12-31",
+      0.1240023248665128
+    ],
+    [
+      "2014-11-04",
+      0.11981175907065146
+    ],
+    [
+      "2014-10-13",
+      0.11374859855908855
+    ]
+  ],
+  "lgbm_ozellik_onemi": {
+    "dun_1_gun_once_ayni_saat": 19503754.0,
+    "dun_2_gun_once_ayni_saat": 1004280.0,
+    "dun_3_gun_once_ayni_saat": 502003.0,
+    "dun_4_gun_once_ayni_saat": 371845.0,
+    "dun_5_gun_once_ayni_saat": 469336.0,
+    "dun_6_gun_once_ayni_saat": 1452820.0,
+    "dun_7_gun_once_ayni_saat": 50123510.0,
+    "dunku_ortalama": 870689.0,
+    "dunku_en_yuksek": 705227.0,
+    "dunku_en_dusuk": 811962.0,
+    "dunku_son_saat": 1157054.0,
+    "son7_ayni_saat_ortalama": 8722354.0,
+    "gecen_hafta_ayni_gun_ortalama": 1079866.0,
+    "saat": 2264692.0,
+    "haftanin_gunu": 2309847.0,
+    "ay": 921657.0,
+    "log_olcek": 1049438.0,
+    "tatil": 256544.0,
+    "dun_tatil": 116473.0
+  }
+}
